@@ -17,7 +17,7 @@ def save_results_to_csv(csv_file, results):
 def main():
     txt_file = "./ips.txt"
     csv_file = "./results.csv"
-    db_file = "../../data/ip2region.xdb"
+    db_file = "./ip2region.xdb"
     
     # 加载 XDB 数据库
     searcher = XdbSearcher(db_file)
